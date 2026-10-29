@@ -10,6 +10,12 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+/*
+** How to compile (run from 04_life/):
+**   cc -Wall -Wextra -Werror my_solution/life.c -o life
+**   echo 'dxss' | ./life 3 3 1 | cat -e
+*/
+
 #include <stdlib.h>
 #include <unistd.h>
 #include <stdio.h>

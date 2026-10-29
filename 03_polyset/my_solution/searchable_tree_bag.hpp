@@ -10,6 +10,12 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+// How to compile (run from 03_polyset/):
+//   clang++ -Wall -Wextra -Werror -std=c++11 -I given -I my_solution given/*.cpp my_solution/*.cpp -o polyset
+//   ./polyset 1 2 3
+// The given files use nullptr and (int[]){...}: C++11, and only clang accepts that main.
+// No clang? sudo apt install clang
+
 #ifndef SEARCHABLE_TREE_BAG_HPP
 #define SEARCHABLE_TREE_BAG_HPP
 

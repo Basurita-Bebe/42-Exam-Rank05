@@ -1,3 +1,9 @@
+/*
+** How to compile (run from 01_vect2/):
+**   c++ -Wall -Wextra -Werror -std=c++98 -I my_solution main.cpp my_solution/vect2.cpp -o vect2
+**   ./vect2
+*/
+
 #include "vect2.hpp"
 #include <iostream>
 
