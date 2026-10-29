@@ -15,3 +15,8 @@
 ## Attempts
 | Date | Time taken | From scratch? | Passed? | Notes |
 |------|-----------|---------------|---------|-------|
+
+## Compile & run
+cc -Wall -Wextra -Werror my_solution/life.c -o life
+
+echo 'dxss' | ./life 3 3 1 | cat -e

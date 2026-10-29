@@ -1,9 +1,3 @@
-/*
-** How to compile (run from 02_bigint/):
-**   c++ -Wall -Wextra -Werror -std=c++98 -I my_solution main_test.cpp my_solution/bigint.cpp -o bigint
-**   ./bigint
-*/
-
 #ifndef BIGINT_HPP
 #define BIGINT_HPP
 

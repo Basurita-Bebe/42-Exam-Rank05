@@ -1,14 +1,6 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   vect2_short.hpp                                    :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: brrr1 <brrr1@student.42.fr>                +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/10/29 10:59:46 by brrr1             #+#    #+#             */
-/*   Updated: 2026/10/29 10:59:51 by brrr1            ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
+// Compile:
+// c++ -Wall -Wextra -Werror -std=c++98 -I my_solution main.cpp my_solution/vect2.cpp -o vect2
+// c++ -Wall -Wextra -Werror -std=c++98 -I short main.cpp short/vect2.cpp -o vect2
 
 #pragma once
 #include <iostream>

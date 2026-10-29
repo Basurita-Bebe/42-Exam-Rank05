@@ -15,3 +15,8 @@
 ## Attempts
 | Date | Time taken | From scratch? | Passed? | Notes |
 |------|-----------|---------------|---------|-------|
+
+## Compile & run
+clang++ -Wall -Wextra -Werror -std=c++11 -I given -I my_solution given/*.cpp my_solution/*.cpp -o polyset
+
+./polyset 1 2 3

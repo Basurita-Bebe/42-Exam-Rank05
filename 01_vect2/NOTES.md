@@ -3,8 +3,8 @@
 ## 1. Reframe the problem
 - I have to create a class with two int components (x and y) that I can read and wright through v[0] and v[1].
 - Have to submmit two files vect2.hpp and vect2.cpp.
-- Everything that the class must support: 
-    - *Constructing:* 
+- Everything that the class must support:
+    - *Constructing:*
         - vect2 v1;             // no arguments -> default constructor, sets {0, 0}
         - vect2 v2(1, 2);       // two ints -> constructor taking (int x, int y)
         - const vect2 v3(v2);   // from another vect2 -> copy constructor
@@ -43,3 +43,9 @@
 |------|------------|---------------|---------|-------|
 |------|------------|---------------|---------|-------|
 |------|------------|---------------|---------|-------|
+
+
+## Compile & run
+c++ -Wall -Wextra -Werror -std=c++98 -I my_solution main.cpp my_solution/vect2.cpp -o vect2
+
+./vect2

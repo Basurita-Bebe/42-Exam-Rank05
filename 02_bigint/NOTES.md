@@ -15,3 +15,9 @@
 ## Attempts
 | Date | Time taken | From scratch? | Passed? | Notes |
 |------|-----------|---------------|---------|-------|
+
+## Compile & run
+c++ -Wall -Wextra -Werror -std=c++98 -I my_solution main_test.cpp my_solution/bigint.cpp -o bigint
+
+./bigint
+
