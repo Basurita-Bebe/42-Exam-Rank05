@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   vect2.hpp                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: bbeceiro <bbeceiro@student.42.fr>          +#+  +:+       +#+        */
+/*   By: brrr1 <brrr1@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/20 16:06:10 by bbeceiro          #+#    #+#             */
-/*   Updated: 2026/10/20 16:06:12 by bbeceiro         ###   ########.fr       */
+/*   Updated: 2026/10/29 10:52:28 by brrr1            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,11 +22,11 @@
 #include <iostream>
 
 class vect2 {
-    private:
-        int _x;
-        int _y;
-    public:
-        vect2();
+	private:
+		int _x;
+		int _y;
+	public:
+		vect2();
         vect2(int x, int y);
         vect2(const vect2& source);
         vect2& operator=(const vect2& source);
@@ -41,7 +41,7 @@ class vect2 {
         vect2   operator++(int);  // x++
         vect2   &operator--();    // --x
         vect2   operator--(int);  // x--
-        
+
         // Arithmetic
         vect2   operator+(const vect2& rhs) const;
         vect2   &operator+=(const vect2& rhs);
